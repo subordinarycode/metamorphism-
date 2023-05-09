@@ -1,7 +1,7 @@
 import importlib
 import sys
 from cryptography.fernet import Fernet
-import os.path import isfile
+from os.path import isfile
 
 
 class Metamorphism:
