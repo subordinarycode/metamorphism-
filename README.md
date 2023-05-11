@@ -46,9 +46,9 @@ data = b'<your encrypted payload>'
 
 m = meta(
         encryption_key=key,             # Required
-        new_content=encrypted_content,  # Required
+        new_content=data,               # Required
         file_path=__file__,             # Required
-        extension=".py"                 # Defauly .py
+        extension=".py"                 # Default .py
 )
 
 
